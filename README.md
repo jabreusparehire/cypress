@@ -1,6 +1,6 @@
 # Graphite Cypress simple setup
 ## Instalation
-Clone the repo and run `npm install`.
+Clone the repo, install `npm` and run `npm install`.
 
 ## Running tests
 ### With npm
