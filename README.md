@@ -1,10 +1,13 @@
 # Graphite Cypress simple setup
 ## Instalation
 Clone the repo, install `npm` and run `npm install`.
+***I've included my `baseUrl` for running cypress (found on `cypress.json` - we can change it to be an env variable). Change before running the tests***
 
 ## Running tests
 ### With npm
 Run `npm run test`.
+
+Cypress' interactive window will open allowing you to select which spec to run. Select one and watch the magic happen.
 
 ### Running with docker
 ```
