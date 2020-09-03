@@ -2,7 +2,11 @@
 ## Instalation
 Clone the repo and run `npm install`.
 
-## Running with docker
+## Running tests
+### With npm
+Run `npm run test`.
+
+### Running with docker
 ```
 docker run -it -v $PWD:/e2e -w --entrypoint=cypress cypress/included:3.2.0 run
 ```
@@ -13,9 +17,6 @@ There seems to be a way to allow that (which involves installing a couple of lib
 https://www.cypress.io/blog/2019/05/02/run-cypress-with-a-single-docker-command/
 
 In docker it will run in `headless` mode, but will take screenshots of the tests and record videos (still need to dig a bit more into that)
-
-## Using cypress
-The interactive window is very intuitive
 
 ## Writing tests
 Cypress uses Mocha (test lib) and Chai (assertion lib) syntax for writing tests. You can find out more :
